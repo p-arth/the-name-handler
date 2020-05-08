@@ -8,20 +8,8 @@ class App extends Component {
 
     return (
       <div className= {appStyles.App} >
-        <header className={appStyles.AppHeader}>
-          <img src={logo} className= {appStyles.AppLogo} alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className={appStyles.AppLink}
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <img src={logo} className= {appStyles.AppLogo} alt="logo" />
+        <h1>Hi, I'm the Name Handler!</h1>
       </div>
     );
 

@@ -3,29 +3,15 @@
 }
 
 .AppLogo {
-  height: 40vmin;
+  height: 70px;
   pointer-events: none;
+  margin-top: 25px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .AppLogo {
     animation: AppLogoSpin infinite 20s linear;
   }
-}
-
-.AppHeader {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.AppLink {
-  color: #61dafb;
 }
 
 @keyframes AppLogoSpin {
@@ -35,4 +21,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-family: Raleway;
+  color: #6182f9;
 }
